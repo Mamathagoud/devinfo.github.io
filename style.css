@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: black;
+}
+.main{
+    border: solid 1px;
+    height: 670px;
+    width: 100%;
+    background-color: black;
+}
+.scrollcontainer {
+    width: 1400px;
+    height: 650px;
+    overflow-x: auto;
+    margin-left: 70px;
+    white-space: nowrap;
+    background-color: black;
+}
+
+.scrollcontent {
+    display: inline-block; 
+    margin-left: 100px;
+}
+
+.scrollcontent img {
+    width: 370px;
+    height: 500px; 
+    margin-right: 10px;
+    margin-left: 15px;     
+    border-radius: 35px;
+}
+h1{
+   color: white;
+}
